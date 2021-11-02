@@ -57,17 +57,17 @@ function AppBar(): JSX.Element {
                           {i18n._(t`Pool`)}
                         </a>
                       </NavLink>
-                      {chainId && featureEnabled(Feature.MIGRATE, chainId) && (
-                        <NavLink href={'/migrate'}>
-                          <a
-                            id={`migrate-nav-link`}
-                            className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
-                          >
-                            {i18n._(t`Migrate`)}
-                          </a>
-                        </NavLink>
-                      )}
-                      {chainId && featureEnabled(Feature.LIQUIDITY_MINING, chainId) && (
+                      //{chainId && featureEnabled(Feature.MIGRATE, chainId) && (
+                        //<NavLink href={'/migrate'}>
+                          //<a
+                            //id={`migrate-nav-link`}
+                            //className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
+                          //>
+                            //{i18n._(t`Migrate`)}
+                          //</a>
+                        //</NavLink>
+                      //)}
+                      //{chainId && featureEnabled(Feature.LIQUIDITY_MINING, chainId) && (
                         <NavLink href={'/farm'}>
                           <a
                             id={`farm-nav-link`}
