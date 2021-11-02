@@ -105,7 +105,7 @@ function AppBar(): JSX.Element {
                           >
                             {i18n._(t`Stake`)}
                           </a>
-                        </NavLink>
+                        //</NavLink>
                     )}
                     </div>
                   </div>
