@@ -98,7 +98,7 @@ function AppBar(): JSX.Element {
                         </>
                       )}
                       {chainId && featureEnabled(Feature.STAKING, chainId) && (
-                        <NavLink href={/*'/stake'}*/>
+                        //<NavLink href={'/stake'}>
                           <a
                             id={`stake-nav-link`}
                             className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
