@@ -56,7 +56,7 @@ function AppBar(): JSX.Element {
                         >
                           {i18n._(t`Pool`)}
                         </a>
-                      //</NavLink>
+                      </NavLink>
                       //{chainId && featureEnabled(Feature.MIGRATE, chainId) && (
                         //<NavLink href={'/migrate'}>
                           //<a
