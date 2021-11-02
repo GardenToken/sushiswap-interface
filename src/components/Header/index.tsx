@@ -107,6 +107,8 @@ function AppBar(): JSX.Element {
                       //    </a>
                       //  </NavLink>
                       //)}
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
