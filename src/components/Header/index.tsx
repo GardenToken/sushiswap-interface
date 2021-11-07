@@ -284,14 +284,14 @@ function AppBar(): JSX.Element {
                   </a>
                 </Link>
 
-                /*<Link href={'/migrate'}>
-                  <a
-                    id={`migrate-nav-link`}
-                    className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
-                  >
-                    {i18n._(t`Migrate`)}
-                  </a>
-                </Link>*/
+                // <Link href={'/migrate'}>
+                //  <a
+                //    id={`migrate-nav-link`}
+                //     className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
+                //   >
+                //     {i18n._(t`Migrate`)}
+                //   </a>
+                // </Link>
 
                 {/*chainId && featureEnabled(Feature.LIQUIDITY_MINING, chainId) && (
                   <Link href={'/farm'}>
