@@ -336,7 +336,7 @@ function AppBar(): JSX.Element {
                       {i18n._(t`Stake`)}
                     </a>
                   </Link>
-                )}
+                )*/}
 
                 {chainId && featureEnabled(Feature.ANALYTICS, chainId) && (
                   <ExternalLink
@@ -346,7 +346,7 @@ function AppBar(): JSX.Element {
                   >
                     {i18n._(t`Analytics`)}
                   </ExternalLink>
-                )*/}
+                )}
               </div>
             </Popover.Panel>
           </>
