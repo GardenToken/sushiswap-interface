@@ -66,7 +66,7 @@ function AppBar(): JSX.Element {
                             {i18n._(t`Migrate`)}
                           </a>
                        </NavLink>
-                     )*/}
+                     )}
                       {chainId && featureEnabled(Feature.LIQUIDITY_MINING, chainId) && (
                         <NavLink href={'/farm'}>
                           <a
@@ -106,7 +106,7 @@ function AppBar(): JSX.Element {
                             {i18n._(t`Stake`)}
                           </a>
                         //</NavLink>
-                    )}
+                    )*/}
                     </div>
                   </div>
                 </div>
