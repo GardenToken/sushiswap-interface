@@ -138,14 +138,14 @@ const nextConfig = {
         source: '/borrow/:token*',
         destination: '/kashi/borrow/:token*',
       },
-      {
-        source: '/lend',
-        destination: '/kashi/lend',
-      },
-      {
-        source: '/lend/:token*',
-        destination: '/kashi/lend/:token*',
-      },
+      // {
+      //   source: '/lend',
+      //   destination: '/kashi/lend',
+      // },
+      // {
+      //   source: '/lend/:token*',
+      //   destination: '/kashi/lend/:token*',
+      // },
       // Onsen
       // {
       //   source: '/farm',
