@@ -27,14 +27,14 @@ export default function Layout({
       <Header />
       <Main>
         <Container className="px-4 py-4 md:py-8 lg:py-12" maxWidth="7xl">
-          <div className={`mb-2 grid grid-cols-12 gap-4`}>
+          </*div className={`mb-2 grid grid-cols-12 gap-4`}>
             <div className="flex justify-center col-span-12 xl:col-span-3 lg:justify-start">
-              </*Link href="/borrow">
+              <Link href="/borrow">
                 <a className="flex justify-center xl:justify-start xl:mx-8">
                   <Image src={kashiLogo} alt="Kashi" height={64} width={250} />
                 </a>
-              </Link*/>
-            </div>
+              </Link>
+            </div*/>
             <div className="flex items-end col-span-12 xl:col-span-9">
               <nav className="flex items-center justify-between w-full">
                 <div className="flex">
