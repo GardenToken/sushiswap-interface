@@ -4,7 +4,7 @@ import Header from '../../components/Header'
 import Image from '../../components/Image'
 import Link from 'next/link'
 import Main from '../../components/Main'
-import NavLink from '../../components/NavLink'
+// import NavLink from '../../components/NavLink'
 import Popups from '../../components/Popups'
 import React from 'react'
 import kashiLogo from '../../../public/kashi-logo.png'
@@ -38,7 +38,7 @@ export default function Layout({
             <div className="flex items-end col-span-12 xl:col-span-9">
               <nav className="flex items-center justify-between w-full">
                 <div className="flex">
-                  <NavLink href="/lend">
+                  // <NavLink href="/lend">
                     <a
                       className={
                         'pl-4 pr-2 sm:pl-8 sm:pr-4 flex items-center font-medium ' +
